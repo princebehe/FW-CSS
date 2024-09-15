@@ -1,0 +1,100 @@
+/* Always remove all browser spacing prior to designing. The immediate code here is use for this purpose. */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    /* background-color:rgb(146, 144, 144); */
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    line-height: 2cap;  /* This is used to do the same thing as line spacing in msword. */
+}
+h1{
+    color: brown;
+}
+
+.heading{
+    color: rgb(107, 3, 253);
+}
+
+#menu{
+    background-color: black;
+    width: auto /*You can make use of either auto or 100%*/. Auto give the exact width
+    height: 40px;
+    color: #000;
+    padding: 20px 50px; /*1. Order of arrangement of padding, margin and border :Top Right Bottom Left.2. If we use one value, it means all four sides have the same value. 3. If we use just 2, it means the first values is assigned to the top and bottom while the second is assigned to the right and left.*/
+    text-align: right;
+    border-radius: 0px;
+}
+
+#menu a{
+    text-decoration: none; /*Setting the value of this property to none helps remove underline.*/
+    color: white;
+    font-weight: 700;
+    background-color: blue;
+    padding: 10px 30px;
+    border-radius: 10px;
+    display: inline-block;
+}
+#menu a:hover{
+    color: crimson;
+    background-color: rgb(107, 107, 241);
+
+}
+
+#hero{
+    background-color: rgb(51, 3, 96);
+    height: 400px;
+    width:auto;
+    border-radius: 0px;
+    margin-top: 0px 0px 5px 0px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#hero h1{
+    color: white;
+    font-size: 70px;
+}
+#hero p{
+    color: white;
+    font-size: 40px;
+    margin-top: 40px;
+
+}
+#hero a{
+    background-color: blue;
+    text-decoration: none;
+    color: white;
+  /*   font-weight: 600; */
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 50px;
+    display: inline-block; /* A link does not possess the property of a box. However, if we desire such, then we have introduce a block or in-line block as we have done. */
+}
+#hero a:hover{
+    color: crimson;
+    background-color: rgb(109, 109, 247);
+    font-weight: 600;
+}
+#courses{
+   /*  margin-top: 20px; */
+   /*  background-color: darkorange; */
+    padding: 40px; /* Add padding to create space inside the section */
+    text-align: center;
+}
+
+#courses h1 {
+    text-align: center;
+    color:rgb(0, 0, 3);
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+#courses img{
+    height:250px; 
+    margin:0px 5px;
+    border-radius: 15px;
+}
